@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Shepard",
+        "role": "Commander/Specter",
+        "race": "Human",
+        "picture": "url"
+    },
+    {
+        "id": "2",
+        "name": "Tali Vas'Normandy",
+        "role": "Engineer",
+        "race": "Quarian",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/2/2f/Tali_ME3_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120326003130"
+    },
+    {
+        "id": "3",
+        "name": "Garrus",
+        "role": "Weapons Specialist",
+        "race": "Turian",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/8/84/Garrus_ME3_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120322162326"
+    },
+    {
+        "id": "4",
+        "name": "Liara T'Soni",
+        "role": "Researcher",
+        "race": "Asari",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/a/a7/ME3_Liara_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120328180554"
+    },
+    {
+        "id": "5",
+        "name": "Edi",
+        "role": "Ship AI",
+        "race": "AI",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/f/f1/EDI_ME3_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120321220133"
+    },
+    {
+        "id": "6",
+        "name": "Ashley Williams",
+        "role": "Soldier",
+        "race": "Human",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/a/a2/Ashley_ME3_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120327175353"
+    },
+    {
+        "id": "7",
+        "name": "Kaidan Alenko",
+        "role": "Biotic Soldier",
+        "race": "human",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/d/dd/Kaidan_ME3_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120328175939"
+    },
+    {
+        "id": "8",
+        "name": "Jasme Vega",
+        "role": "N7 Operative",
+        "race": "human",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/5/58/James_ME3_Character_Shot.png/revision/latest/scale-to-width-down/150?cb=20120320181145"
+    },
+    {
+        "id": "9",
+        "name": "Jack",
+        "role": "Biotic Subject",
+        "race": "human",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/6/62/Jack_ME3_boxshot.png/revision/latest/scale-to-width-down/150?cb=20130401100811"
+    },
+    {
+        "id": "10",
+        "name": "Legion",
+        "role": "Recon Platform",
+        "race": "Geth",
+        "picture": "https://vignette.wikia.nocookie.net/masseffect/images/8/89/Legion_ME3_boxshot.png/revision/latest/scale-to-width-down/150?cb=20130507061445"
+    }
+]
