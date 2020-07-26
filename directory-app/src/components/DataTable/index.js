@@ -1,33 +1,28 @@
 import React from 'react';
 import "./style.css";
 
-function Table() {
+function Table(props) {
+    console.log(props)
     return (
         <table className='highlight centered responsive-table'>
             <thead>
                 <tr>
                     <th></th>
-                    <th>Item Name</th>
-                    <th>Item Price</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Race</th>
                 </tr>
             </thead>
 
             <tbody>
-                <tr>
-                    <td>Alvin</td>
-                    <td>Eclair</td>
-                    <td>$0.87</td>
-                </tr>
-                <tr>
-                    <td>Alan</td>
-                    <td>Jellybean</td>
-                    <td>$3.76</td>
-                </tr>
-                <tr>
-                    <td>Jonathan</td>
-                    <td>Lollipop</td>
-                    <td>$7.00</td>
-                </tr>
+                {props.crew.map(member => (
+                    <tr key={member.id}>
+                        <td><img src={member.picture} alt="crew member headshot" width="50" height="50"></img></td>
+                        <td>{member.name}</td>
+                        <td>{member.role}</td>
+                        <td>{member.race}</td>
+                    </tr>
+                ))}
             </tbody>
         </table>
     );
