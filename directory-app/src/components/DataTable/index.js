@@ -12,6 +12,7 @@ function Table(props) {
             <thead>
                 <tr>
                     <th></th>
+                    {/* () => functions are to delay functions till we actually click and so they dont launch on page load */}
                     <th onClick={() => console.log("Name")}>Name</th>
                     <th onClick={() => console.log("Role")}>Role</th>
                     <th onClick={() => console.log("Race")}>Race</th>
