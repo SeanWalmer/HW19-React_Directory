@@ -1,9 +1,6 @@
 import React from 'react';
 import "./style.css";
 
-// function printThis(word) {
-//     console.log(word)
-// }
 
 function Table(props) {
     console.log(props)
@@ -13,9 +10,9 @@ function Table(props) {
                 <tr>
                     <th></th>
                     {/* () => functions are to delay functions till we actually click and so they dont launch on page load */}
-                    <th onClick={() => console.log("Name")}>Name<span className="material-icons sortIcon">sort_by_alpha</span></th>
-                    <th onClick={() => console.log("Role")}>Role<span className="material-icons sortIcon">import_export</span></th>
-                    <th onClick={() => console.log("Race")}>Race<span className="material-icons sortIcon">import_export</span></th>
+                    <th onClick={() => props.sortName()}>Name<span className="material-icons sortIcon">sort_by_alpha</span></th>
+                    <th onClick={() => props.sortRole()}>Role<span className="material-icons sortIcon">import_export</span></th>
+                    <th onClick={() => props.sortRace()}>Race<span className="material-icons sortIcon">import_export</span></th>
                 </tr>
             </thead>
 
