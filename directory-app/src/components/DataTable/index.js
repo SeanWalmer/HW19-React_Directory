@@ -1,6 +1,10 @@
 import React from 'react';
 import "./style.css";
 
+// function printThis(word) {
+//     console.log(word)
+// }
+
 function Table(props) {
     console.log(props)
     return (
@@ -8,9 +12,9 @@ function Table(props) {
             <thead>
                 <tr>
                     <th></th>
-                    <th>Name</th>
-                    <th>Role</th>
-                    <th>Race</th>
+                    <th onClick={() => console.log("Name")}>Name</th>
+                    <th onClick={() => console.log("Role")}>Role</th>
+                    <th onClick={() => console.log("Race")}>Race</th>
                 </tr>
             </thead>
 
