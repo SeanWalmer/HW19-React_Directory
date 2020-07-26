@@ -13,9 +13,9 @@ function Table(props) {
                 <tr>
                     <th></th>
                     {/* () => functions are to delay functions till we actually click and so they dont launch on page load */}
-                    <th onClick={() => console.log("Name")}>Name</th>
-                    <th onClick={() => console.log("Role")}>Role</th>
-                    <th onClick={() => console.log("Race")}>Race</th>
+                    <th onClick={() => console.log("Name")}>Name<span className="material-icons sortIcon">sort_by_alpha</span></th>
+                    <th onClick={() => console.log("Role")}>Role<span className="material-icons sortIcon">import_export</span></th>
+                    <th onClick={() => console.log("Race")}>Race<span className="material-icons sortIcon">import_export</span></th>
                 </tr>
             </thead>
 
