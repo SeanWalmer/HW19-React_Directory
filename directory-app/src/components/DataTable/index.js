@@ -3,7 +3,7 @@ import "./style.css";
 
 
 function Table(props) {
-    console.log(props)
+    // console.log(props)
     return (
         <table className='highlight centered responsive-table'>
             <thead>
@@ -17,7 +17,9 @@ function Table(props) {
             </thead>
 
             <tbody>
-                {props.crew.map(member => (
+                {/* Cycles through the crew list passed in through 
+                props and cretes an entry for each */}
+                {props.currentCrew.map(member => (
                     <tr key={member.id}>
                         <td><img src={member.picture} alt="crew member headshot" width="50" height="50"></img></td>
                         <td>{member.name}</td>
