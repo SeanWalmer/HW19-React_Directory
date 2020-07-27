@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HW19-React_Directory/static/css/main.d89f1689.chunk.css",
+    "main.js": "/HW19-React_Directory/static/js/main.7b89f0a9.chunk.js",
+    "main.js.map": "/HW19-React_Directory/static/js/main.7b89f0a9.chunk.js.map",
+    "runtime-main.js": "/HW19-React_Directory/static/js/runtime-main.0f36a503.js",
+    "runtime-main.js.map": "/HW19-React_Directory/static/js/runtime-main.0f36a503.js.map",
+    "static/js/2.8f8731de.chunk.js": "/HW19-React_Directory/static/js/2.8f8731de.chunk.js",
+    "static/js/2.8f8731de.chunk.js.map": "/HW19-React_Directory/static/js/2.8f8731de.chunk.js.map",
+    "index.html": "/HW19-React_Directory/index.html",
+    "precache-manifest.bcfe9910c5461e5486ab90b1c1a1f875.js": "/HW19-React_Directory/precache-manifest.bcfe9910c5461e5486ab90b1c1a1f875.js",
+    "service-worker.js": "/HW19-React_Directory/service-worker.js",
+    "static/css/main.d89f1689.chunk.css.map": "/HW19-React_Directory/static/css/main.d89f1689.chunk.css.map",
+    "static/js/2.8f8731de.chunk.js.LICENSE.txt": "/HW19-React_Directory/static/js/2.8f8731de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f36a503.js",
+    "static/js/2.8f8731de.chunk.js",
+    "static/css/main.d89f1689.chunk.css",
+    "static/js/main.7b89f0a9.chunk.js"
+  ]
+}
