@@ -99,7 +99,7 @@ class Main extends React.Component {
 
         return (
             <div className="container">
-                <h3 className="center-align">Normandy SR2 Crew Directory</h3>
+                <p className="left-align">sort through the crew directory by clicking the headers or typing in the filter</p>
                 <br></br>
                 <div className="row">
                     <p className="col s12 m1 btn-small disabled up">Filter</p>
