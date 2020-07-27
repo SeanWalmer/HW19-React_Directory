@@ -5,7 +5,7 @@ import "./style.css";
 function Table(props) {
     // console.log(props)
     return (
-        <table className='highlight centered responsive-table'>
+        <table className='highlight centered'>
             <thead>
                 <tr>
                     <th></th>
